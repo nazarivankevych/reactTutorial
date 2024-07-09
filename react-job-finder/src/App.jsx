@@ -1,7 +1,16 @@
 import React from "react";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
 
-function App() {
-  return <div className="text-5xl">App</div>;
-}
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <Hero />
+      <HomeCards />
+    </>
+  );
+};
 
 export default App;

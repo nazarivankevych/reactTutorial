@@ -3,12 +3,20 @@
 ## Basic information about app
 
 * using Tailwind for styles
-* JavaScript as main script language
-* Fast API for backend (plan to add in future)
+* JSX as main script language
 
 ## Commands for running:
+### Install packages
 ```bash
 npm intall
 ```
+### Run in dev mode
+```bash
+npm run dev
+```
+### Run json-server for fetching data from json-file
+```bash
+npm run server
+```
 
-At now that is all
+# In future would like to extend a stack of technologies
